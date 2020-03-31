@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>in.javahome</groupId>
-	<artifactId>Test-Demo</artifactId>
+	<groupId>Java Application Project</groupId>
+	<artifactId>Java-Web-Docker</artifactId>
 	<packaging>war</packaging>
 	<version>V1.0</version>
 	<name>my-app</name>
@@ -32,15 +32,14 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://172.31.15.236:8081/repository/maven-snapshots/</url>
+		    <url>http://34.220.37.11:8081/repository/Nexus_Repository/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://172.31.15.236:8081/repository/maven-releases/</url>
+		    <url>http://34.220.37.11:8081/repository/Nexus_Repository/</url>
 		</repository>
   	</distributionManagement>
-	
 <build>
     <plugins>
         <plugin>
